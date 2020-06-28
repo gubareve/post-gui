@@ -14,9 +14,12 @@
     "electron-builder": "^22.7.0"
   },
   "build": {
-  "appId": "kd7t.postgui",
-  "mac": {
-    "category": "com.kd7t.postgui.mac"
+    "appId": "kd7t.postgui",
+    "mac": {
+      "category": "com.kd7t.postgui.mac"
+    }
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
   }
-}
 }

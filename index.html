@@ -1,0 +1,39 @@
+
+<textarea placeholder="content" id="content_input"></textarea>
+
+<textarea placeholder="url" id="url_input"></textarea>
+
+<button id="post">Send POST Request</button>
+
+<h3> Post status:<span id="post-status"></span></h3>
+
+<style>
+  textarea{
+    display:block;
+    width:80%;
+    height:5em;
+  }
+</style>
+
+<script>
+window.$ = window.jQuery = require('jquery');
+
+$('#post').click (function(){
+  // Send a POST request to the server
+  var myData = $('#content_input').val();
+  var myurl = $('#url_input').val();
+  $('#post-status').text("Sending...");
+    $.ajax({
+      type:'POST',
+      url:myurl,
+      data: {uid:"testuser", data:myData},
+      success:function(){
+			 $('#post-status').text("Success");
+      },
+      error:function(){
+			 $('#post-status').text("Success");
+      }
+    });
+
+});
+</script>
