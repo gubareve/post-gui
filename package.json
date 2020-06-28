@@ -1,0 +1,22 @@
+{
+  "name": "post-gui",
+  "version": "1.0.0",
+  "description": "A simple gui tool to make post requests.",
+  "repository": "gubareve/post-gui",
+  "main": "app.js",
+  "author": "Evan Gubarev",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^3.0.2",
+    "electron-builder": "^22.7.0"
+  },
+  "build": {
+  "appId": "kd7t.postgui",
+  "mac": {
+    "category": "com.kd7t.postgui.mac"
+  }
+}
+}
