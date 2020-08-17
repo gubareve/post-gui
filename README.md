@@ -11,7 +11,7 @@
 [devdeps-badge]: https://david-dm.org/JsSucks/BetterDiscordApp/dev-status.svg
 [devdeps-url]: https://david-dm.org/JsSucks/BetterDiscordApp?type=dev
 
-This is a simple tool for making post reqests from the desktop.
+This is a simple tool for making post reqests from your desktop.
 
 # [Download Link](https://github.com/gubareve/post-gui/releases/download/v1.0.0/post-gui-Setup-1.0.0.exe)
 
